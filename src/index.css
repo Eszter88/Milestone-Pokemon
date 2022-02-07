@@ -1,8 +1,96 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.666;
+  background: #c0d2d4;
+  color: #555;
+}
+
+html {
+  margin: 20px 100px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #2ec2b0;
+  line-height: 1.2;
+}
+
+.pokCard {
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  height: 300px;
+}
+
+.pokName {
+  color: #2ec2b0;
+}
+
+.cardContainer {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #2ec2b0;
+  width: 120px;
+  height: 120px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: #2ec2b0;
+  margin: 50px auto;
+}
+
+.type {
+  margin: 20px 0;
+  color: #1a7e76;
+  font-size: large;
+}
+
+.nameInput {
+  padding: 1rem 0.5rem;
+  border: solid #2ec2b0;
+}
+
+.typeInput {
+  padding: 1rem 0.5rem;
+  border: solid #2ec2b0;
+}
+
+button {
+  padding: 1rem 2rem;
+  background-color: #2ec2b0;
+  color: white;
+  border: none;
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    width: 100%;
+  }
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  form {
+    max-width: 80%;
+  }
 }
