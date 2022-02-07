@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Milestone-Pokemon/static/css/main.5be7ec7d.css",
+    "main.js": "/Milestone-Pokemon/static/js/main.c0f39212.js",
+    "static/js/787.3397b452.chunk.js": "/Milestone-Pokemon/static/js/787.3397b452.chunk.js",
+    "index.html": "/Milestone-Pokemon/index.html",
+    "main.5be7ec7d.css.map": "/Milestone-Pokemon/static/css/main.5be7ec7d.css.map",
+    "main.c0f39212.js.map": "/Milestone-Pokemon/static/js/main.c0f39212.js.map",
+    "787.3397b452.chunk.js.map": "/Milestone-Pokemon/static/js/787.3397b452.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5be7ec7d.css",
+    "static/js/main.c0f39212.js"
+  ]
+}
